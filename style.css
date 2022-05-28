@@ -1,0 +1,434 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 100%;
+    height: 90px;
+    /* background-color: blue; */
+    position: relative;
+}
+
+.box{
+    width: 300px;
+    height: 430px;
+    background-color: rgba(145, 202, 60, 0.985);
+    margin-left: 64.7%;
+    position: absolute;
+  }
+  
+.navbar{
+    height: 90px;
+    width: 70%;
+    /* background-color: aqua; */
+    margin-left: 90px;
+}
+
+.navbar > ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.navbar > ul > li{
+    margin-top: 50px;
+
+}
+.main-container{
+    padding-top: 80px;
+    width: 100%;
+    height: 100vh;
+    /* background-color:blueviolet; */
+}
+
+.container_1{
+    width:84%;
+    height: 350px;
+    margin-left: 80px;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_text{
+    width: auto;
+    height: 300px;
+    padding-top: 40px;
+
+}
+
+.main_text > h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-weight: 600;
+}
+
+.main_text > p{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 9px 0;
+}
+
+.main_btn{
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: rgb(138, 201, 44);
+    color: white;
+    border-radius: 3px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main_img{
+    width: 25%;
+    height: 340px;
+    /* background-color: aquamarine; */
+    background-image:url(./profile-pic.png);
+    background-position: center;
+    background-size: cover;
+    margin-top: 10px;
+    position: relative;
+}
+
+.container_2{
+    width: 90%;
+    padding-top: 40px;
+    height: 290px;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner_box_1{
+    width: 30%;
+    height: 300px;
+    /* background-color: aliceblue; */
+}
+
+.box-2{
+    width:290px;
+    height: 200px;
+    /* background-color:blue; */
+    background-image: url(./bg.png);
+}
+
+.box-2 > h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 63px;
+    font-weight:600;
+    margin-left:120px ;
+}
+
+.inner_box_2{
+    width: 50%;
+    height: 280px;
+    /* background-color: blue; */
+}
+
+.box-3{
+    height: 100px;
+    width: 100%;
+    padding: 5px;
+    /* background-color: antiquewhite; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.box-3 > h2{
+    padding: 5px 0;
+  color:rgba(145, 202, 60, 0.985) ;
+}
+
+.box-3 > h6{
+  padding: 7px 0;
+  font-size: 12px;
+}
+
+.container_3{
+    width: 100%;
+    height: 150px;
+    padding-bottom: 40px;
+    /* background-color: blueviolet; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container_3 > h1{
+    text-align: center;
+}
+
+.container_3 > p{
+    text-align: center;
+    padding-top:60px;
+}
+
+.container_4{
+    width: 100%;
+    height: 380px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box-4{
+ height: 55px;
+ width: 40px;
+ background-color:rgba(145, 202, 60, 0.985) ;
+ margin-left:50px ;
+ margin-top: 20px;
+ position: absolute;
+}
+
+.card{
+    height: 350px;
+    width: 280px;
+    /* background-color: antiquewhite; */
+}
+
+.card_img{
+    height: 200px;
+    width: 190px;
+    margin-top: 30px;
+    margin-left: 40px;
+    background-color: aqua;
+    background-position: center;
+    background-size: cover;
+    border-radius: 7px;
+    position: initial;
+}
+
+.first{
+    background-image: url(./recipe.png);
+}
+
+.second{
+    background-image: url(./emoji.png);
+}
+
+.third{
+    background-image: url(./guess-the-number.png);
+}
+
+.fourth{
+    background-image: url(./rock-paper-scissors.png);
+}
+
+.fifth{
+    background-image: url(./pokemon.png);
+}
+
+.sixth{
+    background-image: url(./e-birthday-card.png);
+}
+.card_text{
+    height: 100px;
+    width: 240px;
+    /* background-color:aqua ; */
+    margin-left: 39px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.card_text > h4{
+    padding: 5px 0;
+}
+
+.card_text > h5{
+    padding: 5px 0;
+}
+
+.card_text > h3{
+    padding: 3px 0;
+    font-size: 15px;
+    color:rgba(145, 202, 60, 0.985) ;
+}
+
+.container_5{
+    width: 100%;
+    height: 400px;
+    /* background-color: aqua; */
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.edu_info{
+    width: 55%;
+    height: 350px;
+    /* background-color: brown; */
+}
+.education{
+    width: 90%;
+    height: 120px;
+    margin-top: 13px;
+    margin-left: 80px;
+    /* background-color: blanchedalmond; */
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.box-5{
+    height: 3px;
+    width: 33px;
+    border-radius: 5px;
+    background-color: rgba(145, 202, 60, 0.985);
+}
+.education_info{
+   width:350px ;
+   height: 100px;
+   /* margin-top: 50px; */
+   /* background-color: green; */
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.education_info > h5{
+    font-size: 14px;
+}
+
+.box-6{
+    height: 300px;
+    width: 350px;
+    margin-top: 10px;
+    background-color:rgba(145, 202, 60, 0.985) ;
+}
+
+.box-6 > h1{
+    padding: 50px 40px;
+    font-size: 55px;
+    font-weight: 600;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.container_6{
+    height: 520px;
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-7{
+    height: 300px;
+    width: 30%;
+    /* background-color: antiquewhite; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   padding: 100px 80px ;
+}
+
+.box-7 > h1{
+  font-size: 45px;
+  color:rgba(145, 202, 60, 0.985) ;
+}
+
+.box-7 > h5{
+    padding: 15px 0;
+}
+
+.images{
+    height: 500px;
+    width: 40%;
+    /* background-color: blue; */
+}
+
+.image_part_1{
+    height: 300px;
+    width: 100%;
+    /* background-color: violet; */
+    display: flex;
+}
+
+.img-1{
+    height:254px ;
+    width: 250px;
+    margin-top: 40px;
+    /* background-color: aliceblue; */
+    background-image: url(./guitar.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.img-2{
+    height: 300px;
+    width: 250px;
+    /* background-color: grey; */
+}
+
+.inner_img_1{
+    height: 180px;
+    width: 180px;
+    /* background-color: black; */
+    background-image: url(./friends.png);
+    background-position:center;
+    background-size: cover;
+}
+
+.inner_img_2{
+    height: 120px;
+    width: 180px;
+    /* background-color: black; */
+    background-image: url(./badminton.png);
+    background-position:center;
+    background-size: cover;
+}
+
+.image_part_2{
+    height: 200px;
+    width: 100%;
+    /* background-color:yellow ; */
+    display: flex;
+}
+
+.img-3{
+    height: 170px;
+    width: 250px;
+    /* background-color: black; */
+    background-image: url(./painting.png);
+    background-position:center;
+    background-size: cover;
+}
+
+.img-4{
+    height: 200px;
+    width: 180px;
+    /* background-color: black; */
+    background-image: url(./reading.png);
+    background-position:center;
+    background-size: cover;
+}
+
+.container_7{
+    height: 180px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_info{
+    height:80px;
+    width: 300px;
+    padding: 50px;
+    background-color:rgba(145, 202, 60, 0.985) ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.contact_info > h1{
+    font-weight: 400;
+    padding: 5px 0;
+}
+
+.logo{
+    height: 20px;
+    width: 20px;
+    padding-top: 10px;
+}
+
+.other_info{
+    height: 60px;
+    width: 220px;
+    /* background-color: antiquewhite; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     margin-top: 120px;
+}
